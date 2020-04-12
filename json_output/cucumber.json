@@ -1,0 +1,284 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 279600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "HubSpot create deal test",
+        "description": "",
+        "id": "hubspot-test;hubspot-create-deal-test",
+        "after": [
+          {
+            "result": {
+              "duration": 465000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 250854600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on deal page",
+            "match": {
+              "location": "Hooks_StepDefinition.user_is_on_deal_oage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 132800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user fills the deals form",
+            "match": {
+              "location": "Hooks_StepDefinition.user_fills_the_deals_form()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 435100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "deal is created",
+            "match": {
+              "location": "Hooks_StepDefinition.deal_is_created()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 156200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "HubSpot create contact test",
+        "description": "",
+        "id": "hubspot-test;hubspot-create-contact-test",
+        "after": [
+          {
+            "result": {
+              "duration": 45700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 296700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on contact page",
+            "match": {
+              "location": "Hooks_StepDefinition.user_is_on_contact_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 63900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user fills the contact form",
+            "match": {
+              "location": "Hooks_StepDefinition.user_fills_the_contact_form()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "contact is created",
+            "match": {
+              "location": "Hooks_StepDefinition.contact_is_created()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 348100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "HubSpot create mail test",
+        "description": "",
+        "id": "hubspot-test;hubspot-create-mail-test;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 54200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 361600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is on mail page",
+            "match": {
+              "location": "Hooks_StepDefinition.user_is_on_mail_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 511100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user fills the mail form",
+            "match": {
+              "location": "Hooks_StepDefinition.user_fills_the_mail_form()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 127000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "mail is created",
+            "match": {
+              "location": "Hooks_StepDefinition.mail_is_created()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2807000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "HubSpot create mail test",
+        "description": "",
+        "id": "hubspot-test;hubspot-create-mail-test;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 66900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 223600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is on mail page",
+            "match": {
+              "location": "Hooks_StepDefinition.user_is_on_mail_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 55900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user fills the mail form",
+            "match": {
+              "location": "Hooks_StepDefinition.user_fills_the_mail_form()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "mail is created",
+            "match": {
+              "location": "Hooks_StepDefinition.mail_is_created()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "HubSpot test",
+    "description": "",
+    "id": "hubspot-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/Saurav Saha/eclipse-workspace/HubSpotCucumberFW/src/main/java/Features/hooks.feature"
+  }
+]

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0.257417">
+<testcase classname="HubSpot test" name="HubSpot create deal test" time="0.252167">
+<system-out><![CDATA[Given user is on deal page..................................................passed
+When user fills the deals form..............................................passed
+Then deal is created........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="HubSpot test" name="HubSpot create contact test" time="0.00064">
+<system-out><![CDATA[Given user is on contact page...............................................passed
+When user fills the contact form............................................passed
+Then contact is created.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="HubSpot test" name="HubSpot create mail test" time="0.001402">
+<system-out><![CDATA[Given user is on mail page..................................................passed
+When user fills the mail form...............................................passed
+Then mail is created........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="HubSpot test" name="HubSpot create mail test 2" time="0.003208">
+<system-out><![CDATA[Given user is on mail page..................................................passed
+When user fills the mail form...............................................passed
+Then mail is created........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
